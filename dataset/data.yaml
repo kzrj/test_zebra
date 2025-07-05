@@ -1,0 +1,9 @@
+path: /content/drive/MyDrive/dataset/data.yaml
+train: /content/drive/MyDrive/dataset/train/images
+val: /content/drive/MyDrive/dataset/val/images
+test: /content/drive/MyDrive/dataset/test/images
+
+nc: 14
+names: ['soup_full','salad_full','main_course_full','soup_eaten','salad_eaten','main_course_eaten','soup_empty','salad_empty',
+'main_course_empty', 'tea_pot', 'glass', 'hand_waiter', 'hand_guest', 'cutlery']
+class_weights: [1.79, 1.37, 0.52, 0.8, 0.81, 1.83, 2.81, 1.83, 1.0, 0.78, 0.38, 5.0, 0.62, 0.86]
